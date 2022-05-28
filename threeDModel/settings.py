@@ -24,8 +24,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY =  'django-insecure-_@$aexqvcsinwculwdata$%yhrolcym)0=%8w#srk$nvv_$ndt' #os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-ALLOWED_HOSTS = ["shirajmodelviewer.herokuapp.com","shirajmodelviewer2.herokuapp.com","localhost"] #'mrmapp.herokuapp.com'
+DEBUG = False
+ALLOWED_HOSTS = ["newmodel02011.herokuapp.com","localhost"] #'mrmapp.herokuapp.com'
 CSRF_TRUSTED_ORIGINS = ['https://*.shirajmodelviewer.herokuapp.com','https://*.shirajmodelviewer2.herokuapp.com','https://*.127.0.0.1']
 
 

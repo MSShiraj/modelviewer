@@ -12,7 +12,7 @@ def upload(request):
     context={}
     if request.method == 'POST':
         uploaded_files=request.FILES['document']
-        print(uploaded_files.name,"My file")
+        # print(uploaded_files.name,"My file")
         fs = FileSystemStorage()
         name = fs.save(uploaded_files.name, uploaded_files)
         context['myurl'] = fs.url(name)
