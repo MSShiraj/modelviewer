@@ -1,0 +1,171 @@
+/*----------------------------UPLOAD PAGE-------------------------------*/
+/*----------------------------UPLOAD PAGE-------------------------------*/
+/*----------------------------UPLOAD PAGE-------------------------------*/
+/*----------------------------UPLOAD PAGE-------------------------------*/
+/*----------------------------UPLOAD PAGE-------------------------------*/
+/*----------------------------UPLOAD PAGE-------------------------------*/
+/*----------------------------UPLOAD PAGE-------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+  }
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: black;
+    background-repeat:no-repeat;
+    background-position: top center; 
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+/* linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%,
+    rgb(0, 0, 0, 0.5) 90%),  */
+  button{
+    background-color:#363636;
+    color:white;
+    border-radius: 25px;
+    border-color: #343a40;
+    border-width: 5px;
+  }
+
+  button:hover{
+    background-color:#242424;
+    color:rgb(218, 218, 218);
+    border-radius: 25px;
+    border-color: #363636;
+    border-width: 5px;
+    box-shadow: 0px 0px 10px rgb(203, 203, 203);
+  }
+
+  
+  .wrapper{
+    width: 500px;
+    padding: 30px;
+    background: #242424;
+    /* background-image: linear-gradient(to bottom, #19b0f9, #0b2549); */
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 30px lightblue; */
+   }
+   .wrapper header{
+    color: #fff;
+    font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+   }
+
+   .wrapper .formDiv{
+    height: 300px;
+    display: flex;
+    margin: 30px 0;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 2px dashed #fff;
+    border-radius: 30px;
+   }
+
+   form {
+    text-align: left;
+  }
+   .formDiv{
+     align-items: center;
+     color: #fff;
+   }
+   
+   .fas{margin-top: 30px;}
+
+   #file-input{
+     margin-top: 2vh;
+   }
+   .formDiv :where(i, p){
+    color: #fff;
+  }
+  .formDiv i{
+    font-size: 50px;
+  }
+  .formDiv p{
+    font-size:larger;
+    margin-top: 15px;
+  }
+  section .row{
+    background: #363636;
+    margin-bottom: 10px;
+    list-style: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  section .row a{
+    color: #fff;
+  }
+    section .row i{
+    font-size: 30px;
+    color: #fff;
+    }
+   section .details span{
+    font-size: 14px;
+   }
+   .progress-area .row .content{
+    width: 100%;
+    margin-left: 15px;
+   }
+   .progress-area .details{
+    display: flex;
+     align-items: center;
+     margin-bottom: 7px;
+    justify-content: space-between;
+   }
+
+   .progress-area .progress-bar{
+    height: 6px;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4px;
+    border-radius: 30px;
+
+   }
+
+   .progress-bar .progress{
+    height: 100%;
+    width: 50%;
+    background: #19b0f9;
+    border-radius: inherit;
+
+   }
+
+   .uploaded-area{
+    max-height: 150px;
+    overflow-y: scroll;
+   }
+   .uploaded-area::-webkit-scrollbar{
+    width: 0px;
+   }
+
+   .uploaded-area .row .content{
+    display: flex;
+    align-items: center;
+   }
+   .uploaded-area .row .details{
+    display: flex;
+    margin-left: 15px;
+    flex-direction: column;
+   }
+
+   p{
+     margin-bottom:1em ;
+     font-size: large;
+   }
